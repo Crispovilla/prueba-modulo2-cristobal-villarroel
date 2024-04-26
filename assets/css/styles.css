@@ -1,0 +1,64 @@
+:root {
+  --primary: #0f0f0f;
+  --secondary: #ffffff;
+  --accent: #13a2b9;
+  --contrast: #fbff1c;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.custom-logo {
+  height: 30px;
+  width: auto;
+}
+.custom-logo-text {
+  font-size: 14px;
+  color: var(--secondary);
+}
+li a {
+  color: var(--secondary) !important;
+}
+.custom-carrousel {
+  width: 100vw !important; /* 
+  margin-left: -15px !important;
+  margin-right: 20px !important; */
+}
+.custom-icon {
+  background-color: var(--accent);
+  text-align: center;
+}
+.custom-bg {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+.card-body {
+  background-color: var(--accent);
+}
+
+.card-body h6 {
+  color: var(--secondary) !important;
+}
+.card-body p {
+  color: var(--secondary) !important;
+  font-size: 14px;
+}
+.custom-button {
+  background-color: var(--accent) !important;
+}
+
+.custom-size-footer {
+  font-size: 30px !important;
+}
+.custom-footer {
+  background-color: var(--accent);
+}
+.custom-footer h3 {
+  color: var(--secondary);
+}
+.custom-footer ul li {
+  color: var(--secondary);
+  list-style: none;
+}
