@@ -60,6 +60,9 @@ li a {
   color: var(--secondary) !important;
   font-size: 14px;
 }
+.custom-img {
+  height: 160px;
+}
 .custom-button {
   background-color: var(--accent) !important;
 }
