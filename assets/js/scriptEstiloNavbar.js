@@ -1,12 +1,13 @@
+// Campturamos por clase tanto el navbar como el contenedor
 window.addEventListener("scroll", function () {
   var navBg = document.querySelector(".navBg");
   var customContainer = document.querySelector(".custom-container");
 
   // Obtener la posición de desplazamiento
-  var scrollPosition = window.scrollY || window.pageYOffset;
+  var scrollPosition = window.scrollY;
 
   if (scrollPosition > 900) {
-    // Si el usuario ha desplazado más de 100 píxeles desde la parte superior
+    // Si el usuario ha desplazado más de 900 píxeles desde la parte superior
     navBg.classList.remove("bg-transparent");
     navBg.classList.add("custom-nav-bg");
     customContainer.classList.remove("container");

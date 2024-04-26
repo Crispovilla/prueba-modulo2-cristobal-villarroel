@@ -13,7 +13,7 @@ Posee un Navbar, carrousel, cards, formulario, iconos personalizados.
 
 #### Funcionalidades
 
-- Navbar: Programado para el Smooth Scroll, puedes navegar de forma mas fluida entre los componentes de la página.
+- Navbar: Programado para el Smooth Scroll, puedes navegar de forma mas fluida entre los componentes de la página. También. al momento de hacer scroll 900px hacia abajo, el background del navbar cambia de color.
 - Carrousel: Componente de Bootstrap que muestra imagenes destacadas de la página web.
 - Sección de presentación: Se puede poner el mouse sobre el icono para mostrar un ToolTip, esta sección desaparece al entrar en pantallas móviles.
 - Destacados: Cards que muestran información relevante de la página.
