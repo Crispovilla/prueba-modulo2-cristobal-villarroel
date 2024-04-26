@@ -394,21 +394,22 @@
                                 <form>
                                     <div class="mb-3">
                                         <label class="form-label">Nombre</label>
-                                        <input type="text" class="form-control" id="nombre"
-                                            aria-describedby="emailHelp">
+                                        <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp"
+                                            required>
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">Asunto</label>
-                                        <input type="text" class="form-control" id="asunto"
-                                            aria-describedby="emailHelp">
+                                        <input type="text" class="form-control" id="asunto" aria-describedby="emailHelp"
+                                            required>
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">Mensaje</label>
-                                        <textarea class="form-control" id="floatingTextarea"></textarea>
+                                        <textarea class="form-control" id="floatingTextarea" required></textarea>
                                     </div>
-                                    <button type="button" class="btn btn-primary custom-button" data-bs-toggle="tooltip"
-                                        data-bs-placement="bottom" data-bs-title="Presiona para enviar"
-                                        data-bs-custom-class="custom-tooltip">
+                                    <div id="liveAlertPlaceholder"></div>
+                                    <button type="submit" id="liveAlertBtn" class="btn btn-primary custom-button"
+                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                        data-bs-title="Presiona para enviar" data-bs-custom-class="custom-tooltip">
                                         Enviar
                                     </button>
                                 </form>
@@ -458,6 +459,8 @@
     <script src="assets/js/tooltip.js"></script>
     <!-- Script para cambiar el background del Navbar al hacer Scroll -->
     <script src="assets/js/scriptEstiloNavbar.js"></script>
+    <!-- Script para el mensaje al enviar el formulario -->
+    <script src="assets/js/alertMessage.js"></script>
 </body>
 
 </html>
