@@ -1,8 +1,8 @@
-var alertPlaceholder = document.getElementById("liveAlertPlaceholder");
-var alertTrigger = document.getElementById("liveAlertBtn");
+const alertPlaceholder = document.getElementById("liveAlertPlaceholder");
+const alertTrigger = document.getElementById("liveAlertBtn");
 
 function alert(message, type) {
-  var wrapper = document.createElement("div");
+  const wrapper = document.createElement("div");
   wrapper.innerHTML =
     '<div class="alert alert-' +
     type +
