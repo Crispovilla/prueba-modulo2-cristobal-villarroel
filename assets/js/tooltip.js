@@ -11,12 +11,16 @@
  *
  * Estos componentes mejoran la experiencia del usuario al proporcionar información adicional o interactividad contextual.
  */
+
+// Inicializar los Tooltips de Bootstrap
 var tooltipTriggerList = [].slice.call(
   document.querySelectorAll('[data-bs-toggle="tooltip"]')
 );
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl);
 });
+
+// Inicializar los Popovers de Bootstrap
 var popoverTriggerList = [].slice.call(
   document.querySelectorAll('[data-bs-toggle="popover"]')
 );

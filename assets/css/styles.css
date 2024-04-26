@@ -6,7 +6,7 @@
   --primary: #0f0f0f;
   --secondary: #ffffff;
   --accent: #13a2b9;
-  --contrast: #fbff1c;
+  --contrast: #ff7032;
 }
 * {
   margin: 0;
@@ -36,7 +36,14 @@ li a {
 /* Se activa al momento de hacer Scroll */
 .custom-nav-bg {
   background-color: var(--accent);
+  transition: all 0.5s ease-in;
 }
+.custom-tooltip {
+  --bs-tooltip-bg: var(--contrast) !important;
+  --bs-tooltip-color: var(--primary) !important;
+  font-size: 0.8rem;
+}
+
 .custom-bg {
   background-color: var(--primary);
   color: var(--secondary);
@@ -47,6 +54,7 @@ li a {
 
 .card-body h6 {
   color: var(--secondary) !important;
+  cursor: pointer !important;
 }
 .card-body p {
   color: var(--secondary) !important;
