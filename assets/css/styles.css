@@ -56,11 +56,29 @@ li a {
 }
 .custom-footer {
   background-color: var(--accent);
+  color: var(--secondary);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 100px;
 }
-.custom-footer h3 {
+.custom-icons {
+  display: flex;
+  flex-direction: row;
+}
+.custom-icons a {
   color: var(--secondary);
 }
-.custom-footer ul li {
-  color: var(--secondary);
-  list-style: none;
+@media only screen and (max-width: 480px) {
+  .custom-footer {
+    flex-direction: column;
+  }
+  .custom-footer h2 {
+    font-size: 1.4rem !important;
+    text-align: center !important;
+  }
+  .custom-icons {
+    align-items: center;
+    justify-content: center;
+    text-align: center !important;
+  }
 }
