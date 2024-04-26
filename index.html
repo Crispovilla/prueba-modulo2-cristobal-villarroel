@@ -157,25 +157,67 @@
                 <div class="row align-items-center">
                     <h2 class="text-center mt-lg-5 py-4">DESTACADOS</h2>
                     <hr>
+
+                    <!-- Primera Tarjeta -->
                     <div class="col-12 col-sm-4 col-md-3 col-lg-3 my-3">
                         <div class="card mx-auto" style="width: 85%;">
                             <img src="./assets/img/card1.jpg" class="card-img-top custom-img" alt="...">
                             <div class="card-body">
-                                <h6 class="card-title fw-bold" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    data-bs-title="Click para más información" data-bs-custom-class="custom-tooltip">
+                                <h6 class="card-title fw-bold" data-bs-toggle="modal" data-bs-target="#firstModal">
                                     Lorem ipsum dolor sit amet</h6>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                     Etiam a mauris id purus blandit dapibus.</p>
                             </div>
                         </div>
                     </div>
+                    <!-- Primer Modal -->
+                    <div class="modal fade" id="firstModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content bg-dark">
+                                <div class="modal-header custom-header-modal">
+                                    <h5 class="modal-title text-light fw-bold" id="exampleModalLabel">Primera tarjeta
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="container-fluid py-2">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="mx-auto" style="width: 85%;">
+                                                <img src="./assets/img/card1.jpg"
+                                                    class="card-img-top rounded mx-auto d-block" alt="...">
+                                                <div class="">
+                                                    <h4 class="fw-bold py-3" data-bs-toggle="modal"
+                                                        data-bs-target="#firstModal">
+                                                        Lorem ipsum dolor sit amet</h4>
+                                                    <p class="custom-text">Lorem ipsum dolor, sit amet
+                                                        consectetur
+                                                        adipisicing elit. Dolor nam sequi officiis explicabo labore
+                                                        totam odio natus, autem beatae magni. Architecto asperiores
+                                                        magni, adipisci ducimus iste nostrum perferendis aliquid
+                                                        quibusdam aspernatur optio incidunt, sint praesentium
+                                                        necessitatibus laboriosam voluptates impedit suscipit et quo
+                                                        animi, maxime error provident? A minus ullam officia?.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary custom-button"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <!-- Segunda Tarjeta -->
                     <div class="col-12 col-sm-4 col-md-3 col-lg-3 my-3">
                         <div class="card mx-auto" style="width: 85%;">
                             <img src="./assets/img/card2.jpg" class="card-img-top custom-img" alt="...">
                             <div class="card-body">
-                                <h6 class="card-title fw-bold" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    data-bs-title="Click para más información" data-bs-custom-class="custom-tooltip">
+                                <h6 class="card-title fw-bold" data-bs-toggle="modal" data-bs-target="#secondModal">
                                     Lorem ipsum dolor sit amet</h6>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                     Etiam a mauris id purus blandit dapibus.</p>
@@ -183,12 +225,55 @@
                         </div>
                     </div>
 
+                    <!-- Segundo Modal -->
+                    <div class="modal fade" id="secondModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content bg-dark">
+                                <div class="modal-header custom-header-modal">
+                                    <h5 class="modal-title fw-bold text-light " id="exampleModalLabel">Segunda tarjeta
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="container-fluid py-2">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="mx-auto" style="width: 85%;">
+                                                <img src="./assets/img/card2.jpg"
+                                                    class="card-img-top rounded mx-auto d-block" alt="...">
+                                                <div class="">
+                                                    <h4 class="fw-bold py-3" data-bs-toggle="modal"
+                                                        data-bs-target="#firstModal">
+                                                        Lorem ipsum dolor sit amet</h4>
+                                                    <p class="custom-text">Lorem ipsum dolor sit amet consectetur
+                                                        adipisicing elit. Aperiam minus quos odit rem pariatur dicta,
+                                                        maiores ratione labore debitis. Aliquam deleniti repudiandae
+                                                        doloribus deserunt consectetur distinctio dolore.
+                                                        Necessitatibus, voluptatibus doloremque illum sed dolor odio
+                                                        consequatur iusto adipisci, facilis neque cumque impedit quia
+                                                        saepe ab fuga officiis nulla incidunt. Voluptas obcaecati quod
+                                                        officia ipsam, neque ab minima officiis consequuntur explicabo
+                                                        omnis.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary custom-button"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tercera Tarjeta -->
                     <div class="col-12 col-sm-4 col-md-3 col-lg-3 my-3">
                         <div class="card mx-auto" style="width: 85%;">
                             <img src="./assets/img/card3.jpg" class="card-img-top custom-img" alt="...">
                             <div class="card-body">
-                                <h6 class="card-title fw-bold" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    data-bs-title="Click para más información" data-bs-custom-class="custom-tooltip">
+                                <h6 class="card-title fw-bold" data-bs-toggle="modal" data-bs-target="#thirdModal">
                                     Lorem ipsum dolor sit amet</h6>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                     Etiam a mauris id purus blandit dapibus.</p>
@@ -196,15 +281,98 @@
                         </div>
                     </div>
 
+                    <!-- Tercer Modal -->
+                    <div class="modal fade" id="thirdModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content bg-dark">
+                                <div class="modal-header custom-header-modal">
+                                    <h5 class="modal-title text-light fw-bold" id="exampleModalLabel">Tercera tarjeta
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="container-fluid py-2">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="mx-auto" style="width: 85%;">
+                                                <img src="./assets/img/card3.jpg"
+                                                    class="card-img-top rounded mx-auto d-block" alt="...">
+                                                <div class="">
+                                                    <h4 class="fw-bold py-3" data-bs-toggle="modal"
+                                                        data-bs-target="#firstModal">
+                                                        Lorem ipsum dolor sit amet</h4>
+                                                    <p class="custom-text">Lorem ipsum, dolor sit amet consectetur
+                                                        adipisicing elit. Quae, eum. Suscipit officiis praesentium ad
+                                                        nihil. Rem consequatur, omnis nisi autem accusamus, vel laborum
+                                                        nemo voluptatum nesciunt reprehenderit, in cum. Quia recusandae
+                                                        delectus nobis officiis quidem cum quod ipsam numquam
+                                                        necessitatibus?</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary custom-button"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cuarta Tarjeta -->
                     <div class="col-12 col-sm-4 col-md-3 col-lg-3 my-3">
                         <div class="card mx-auto" style="width: 85%;">
                             <img src="./assets/img/card4.jpg" class="card-img-top custom-img" alt="...">
                             <div class="card-body">
-                                <h6 class="card-title fw-bold" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    data-bs-title="Click para más información" data-bs-custom-class="custom-tooltip">
+                                <h6 class="card-title fw-bold" data-bs-toggle="modal" data-bs-target="#fourthModal">
                                     Lorem ipsum dolor sit amet</h6>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                     Etiam a mauris id purus blandit dapibus.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cuarto Modal -->
+                    <div class="modal fade" id="fourthModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content bg-dark">
+                                <div class="modal-header custom-header-modal">
+                                    <h5 class="modal-title text-light fw-bold" id="exampleModalLabel">Cuarta tarjeta
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="container-fluid py-2">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="mx-auto" style="width: 85%;">
+                                                <img src="./assets/img/card4.jpg"
+                                                    class="card-img-top rounded mx-auto d-block" alt="...">
+                                                <div class="">
+                                                    <h4 class="fw-bold py-3" data-bs-toggle="modal"
+                                                        data-bs-target="#firstModal">
+                                                        Lorem ipsum dolor sit amet</h4>
+                                                    <p class="custom-text">Lorem ipsum, dolor sit amet consectetur
+                                                        adipisicing elit. Velit, repudiandae repellat. Doloribus,
+                                                        accusantium ex nihil fuga fugiat quidem neque tenetur corrupti
+                                                        at reprehenderit obcaecati cum sed, enim assumenda, ut
+                                                        praesentium eum omnis hic quasi consectetur. Cum vitae dicta
+                                                        fugit tenetur? Eius, facere. Esse aspernatur rerum, architecto
+                                                        itaque natus, nobis ipsam iure ipsa id consectetur sed. Officiis
+                                                        porro aliquam facere a dignissimos repudiandae voluptate hic
+                                                        impedit. Officia quas debitis molestiae nesciunt?</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary custom-button"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                </div>
                             </div>
                         </div>
                     </div>
