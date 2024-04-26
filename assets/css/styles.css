@@ -22,9 +22,7 @@ li a {
   color: var(--secondary) !important;
 }
 .custom-carrousel {
-  width: 100vw !important; /* 
-  margin-left: -15px !important;
-  margin-right: 20px !important; */
+  width: 100vw !important;
 }
 .custom-icon {
   background-color: var(--accent);
