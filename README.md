@@ -18,5 +18,5 @@ Posee un Navbar, carrousel, cards, formulario, modales e iconos personalizados.
 - Sección de presentación: Se puede poner el mouse sobre el icono para mostrar un ToolTip, esta sección desaparece al entrar en pantallas móviles.
 - Modal: Al hacer click en el título de alguna de las tarjetas se abrirá un Modal con información detallada
 - Destacados: Cards que muestran información relevante de la página.
-- Formulario Contacto: El botón también posee Tooltip, los campos poseen una validación para evitar campos vacíos y además al momento de enviar el formulario se muestra una alerta.
+- Formulario Contacto: El botón también posee Tooltip, los campos poseen una validación para evitar campos vacíos y además al momento de enviar el formulario se muestra una alerta de bootstrap.
 - Footer: Muestra iconos hacia redes sociales, abriendo los vinculos en una pestaña nueva. Estos iconos también poseen Tootltip.
