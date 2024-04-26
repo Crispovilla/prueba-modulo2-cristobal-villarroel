@@ -1,10 +1,10 @@
-// Campturamos por clase tanto el navbar como el contenedor
+// Capturamos por clase tanto el navbar como el contenedor
 window.addEventListener("scroll", function () {
-  var navBg = document.querySelector(".navBg");
-  var customContainer = document.querySelector(".custom-container");
+  const navBg = document.querySelector(".navBg");
+  const customContainer = document.querySelector(".custom-container");
 
   // Obtener la posición de desplazamiento
-  var scrollPosition = window.scrollY;
+  const scrollPosition = window.scrollY;
 
   if (scrollPosition > 900) {
     // Si el usuario ha desplazado más de 900 píxeles desde la parte superior

@@ -63,6 +63,12 @@ li a {
 .custom-img {
   height: 160px;
 }
+.custom-text {
+  text-align: justify;
+}
+.custom-header-modal {
+  background-color: var(--accent);
+}
 .custom-button {
   background-color: var(--accent) !important;
 }
