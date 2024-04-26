@@ -1,3 +1,7 @@
+/**
+ * Definición de variables CSS personalizadas para el esquema de colores del sitio.
+ * Estas variables proporcionan coherencia y facilidad de mantenimiento al permitir cambios globales en el esquema de colores del sitio.
+ */
 :root {
   --primary: #0f0f0f;
   --secondary: #ffffff;
