@@ -1,3 +1,4 @@
+// Capturamos por id tanto el div que contiene la alerta y el boton que dispara la alerta
 const alertPlaceholder = document.getElementById("liveAlertPlaceholder");
 const alertTrigger = document.getElementById("liveAlertBtn");
 
